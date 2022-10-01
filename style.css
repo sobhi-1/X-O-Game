@@ -1,0 +1,37 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 100fr);
+  grid-template-rows: repeat(3, 100fr);
+}
+.game {
+  width: 255px;
+  margin: auto;
+  color: #eee;
+  font-family: sans-serif;
+  text-align: center;
+}
+.title {
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+
+  background: rgba(242, 35, 35, 0.855);
+}
+span {
+  color: rgb(207, 242, 33);
+}
+.asd {
+  width: 80px;
+  height: 80px;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  float: left;
+  background: rgba(242, 35, 35, 0.855);
+
+  margin: 2px;
+}
+.asd:hover {
+  background: black;
+  cursor: pointer;
+}
